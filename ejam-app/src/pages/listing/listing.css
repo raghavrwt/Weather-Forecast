@@ -1,0 +1,85 @@
+.resource-item {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+    transition: .3s;
+    width: 48%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px;
+    overflow: hidden;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.resource-current-weather {
+    display: flex;
+}
+
+.weather-info-container {
+    flex: 60%;
+    background-color: #15A7F7;   
+    color: white;    
+}
+
+.weather-info {
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.larger {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.smaller {
+    font-size: 14px;
+}
+
+.img-container {
+    flex: 40%;
+    background-color: #30A3DE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.nextdays-container {
+    display: flex;
+} 
+
+.nextday {
+    margin: 5px;
+    border-right: 1px solid black;
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: darkslategrey;
+    line-height: 1.5rem;
+}
+.nextday:nth-child(4) {
+    margin: 5px;
+    border-right: none;
+}
+
+.city-info, .weather-information {
+    border-bottom: 1px solid white;
+    margin-bottom: 12px;
+}
+
+.date-text {
+    font-weight: bold;
+}
+
+.icon-container {
+    padding: 10px;
+    font-size: 25px;
+    color: #30a3de;
+}
+
+.weather-text {
+    text-align: center;
+}
